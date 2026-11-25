@@ -2,7 +2,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const JOKE =
-  "My son said the moon was full. I told him it had seconds.";
+  "The moon looked full, so I said it had seconds.";
 
 const chars = [...JOKE];
 if (chars.length < 1 || chars.length > 200 || JOKE.trim().length === 0) {
